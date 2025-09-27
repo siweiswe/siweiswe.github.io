@@ -17,7 +17,7 @@
 
         body {
             background-color: black;
-            background-image: url('bg.webp');
+            background-image: url('bg2.jpg');
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -97,11 +97,18 @@
 
         .art {
             display: flex;
-            padding: 0px 0px 40px;
+            padding: 40px 0px 40px;
             flex-direction: column;
             align-items: center;
-            gap: 24px;
+            gap: 32px;
             align-self: stretch;
+            background: #000;
+        }
+
+        .art .meta {
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
         }
 
         .art .title {
@@ -112,6 +119,8 @@
             font-weight: 600;
             line-height: normal;
             letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 16px;
         }
 
         .art .images {
@@ -126,24 +135,13 @@
         }
 
         .art img {
-            max-height: 400px;
+            max-height: 250px;
         }
 
-        @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-        }
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap&text=Siwe%20JangM.cstudWrlComLUvy%2Ckh%40DVYARTOK" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="about">
@@ -151,27 +149,31 @@
                 <img src="avatar.webp" alt="" width="80px" height="80px">
                 <p class="title">Siwei Jiang</p>
                 <p class="summary">M.Sc student in Wireless Communcations at Lund University, Sweden.</p>
+                <p class="summary">Looking for a Master thesis internship for 2026, preferably in the Skåne region.</p>
             </div>
             <div class="links">
                 <a href="https://se.linkedin.com/in/siwei-jiang-b62511297">Linkedin</a>
-                <a href="mailto:hello@siwei.im">hello@siwei.im</a>
-                <a href="cv-siwei-web-light.pdf">Download CV</a>
+                <a href="mailto:jianglltj0305@gmail.com">Email me</a>
+                <a href="cv-siwei-jiang.pdf">Download CV</a>
             </div>
         </div>
         <div class="art">
-            <p class="title">MY ARTWORK</p>
+            <div class="meta">
+                <p class="title">MY ARTWORK</p>
+                <p class="summary">During my free time I love to paint and here are some of my work that I've done for school and similarly.</p>
+            </div>
             <div class="images">
-                <img loading="lazy" src="poster1.webp" alt="" width="300px" height="400px">
-                <img loading="lazy" src="poster2.webp" alt="" width="225px" height="400px">
-                <img loading="lazy" src="poster3.webp" alt="" width="225px" height="400px">
-                <img loading="lazy" src="poster4.webp" alt="" width="270px" height="400px">
-                <img loading="lazy" src="poster5.webp" alt="" width="270px" height="400px">
-                <img loading="lazy" src="poster6.webp" alt="" width="270px" height="400px">
-                <img loading="lazy" src="poster7.webp" alt="" width="270px" height="400px">
-                <img loading="lazy" src="poster8.webp" alt="" width="270px" height="400px">
-                <img loading="lazy" src="poster9.webp" alt="" width="270px" height="400px">
-                <img loading="lazy" src="poster10.webp" alt="" width="270px" height="400px">
-                <img loading="lazy" src="cat.webp" alt="" width="270px" height="400px">
+                <img loading="lazy" src="poster1.webp" alt="">
+                <img loading="lazy" src="poster2.webp" alt="">
+                <img loading="lazy" src="poster3.webp" alt="">
+                <img loading="lazy" src="poster4.webp" alt="">
+                <img loading="lazy" src="poster5.webp" alt="">
+                <img loading="lazy" src="poster6.webp" alt="">
+                <img loading="lazy" src="poster7.webp" alt="">
+                <img loading="lazy" src="poster8.webp" alt="">
+                <img loading="lazy" src="poster9.webp" alt="">
+                <img loading="lazy" src="poster10.webp" alt="">
+                <img loading="lazy" src="cat.webp" alt="">
             </div>
         </div>
     </body>
